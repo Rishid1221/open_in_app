@@ -1,0 +1,161 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.brand {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item.active {
+  background-color: #34495e;
+}
+
+.menu-item .icon {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  color: black;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.upload-section {
+
+  text-align: center;
+  justify-content: center;
+}
+
+.upload-box {
+  border: 2px dashed #3498db;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto; 
+  border-radius: 5px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.upload-icon {
+  width: 50px;
+  height: 50px; 
+  color: #3498db;
+  font-size: 2rem; 
+  margin-top: auto; 
+}
+
+.upload-button {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  margin-top: auto; 
+  border-radius: 5px;
+  cursor: pointer;
+  width: 420px;
+}
+
+.upload-button:hover {
+  background-color: #2980b9;
+}
+
+.uploaded-items {
+  margin-top: 40px;
+}
+
+.uploaded-items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.uploaded-items-table th,
+.uploaded-items-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.uploaded-items-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.uploaded-items-table td {
+  background-color: #ffffff;
+}
+
+.uploaded-items-table a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.uploaded-items-table a:hover {
+  text-decoration: underline;
+}
+
+.uploaded-items-table select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.selected-tags {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.selected-tags span {
+  display: inline-block;
+  margin-right: 5px;
+}

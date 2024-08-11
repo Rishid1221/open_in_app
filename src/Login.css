@@ -1,0 +1,266 @@
+*{
+  padding: 0px;
+  margin: 0;
+}
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #e0e0e0; 
+}
+
+
+.login-left {
+  width: 50%;
+  position: relative;
+  background-color: rgb(24, 74, 167);
+
+}
+.login-left1{
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #4285F4;
+  width: 97%;
+  height: 97%;
+}
+
+
+.base-button {
+  background-color:black ; 
+  color: white;
+  padding: 5px 10px; 
+  border: none;
+  font-size: 20px; 
+  font-weight: 700px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px; 
+  left: 20px; 
+  z-index: 3; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  height: 40px;
+  width: 120px;
+}
+
+.base-button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+
+.login-left h2 {
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+   width: 350px;
+  position: relative;
+  z-index: 1; 
+  color:white;
+  padding: 100px;
+  margin-left: 53px;
+
+}
+#text{
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.base-image {
+  width: 30px; 
+  height: auto; 
+  margin-right: 5px; 
+  align-items: self-end;
+  margin-bottom: auto;
+  
+  
+}
+
+
+.login-image {
+  width: 600px; 
+  height: 400px;
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  z-index: 2; 
+  border-radius: 10px;
+  transition: opacity 0.3s ease; 
+}
+
+.login-image:hover {
+  opacity: 0.8; 
+}
+
+
+.login-right {
+  width: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0; 
+  padding: 20px;
+  position: relative;
+}
+
+
+.sign-in-wrapper {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  z-index: 1;
+  background-color: #ffffff;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease; 
+}
+
+.sign-in-wrapper:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+.sign-in-wrapper h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+
+.sign-in-wrapper p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+
+.social-login button {
+  justify-content: space-evenly;
+  display: flex;
+  width: 40%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.social-login button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.02); 
+}
+
+
+.google-login {
+  background-color: #42a5f5;
+  color: white;
+}
+
+.apple-login {
+  background-color: #000000;
+  color: white;
+}
+
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; 
+}
+
+.input-group input:focus {
+  border-color: #007BFF; 
+}
+
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #0056b3; 
+}
+
+
+.sign-in-button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  margin-top: 20px;
+}
+
+.sign-in-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02); 
+}
+
+/* Register text and link styling */
+.register-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.register-text a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Added transition for color */
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+  color: #0056b3; 
+}
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #666666;
+  font-size: 20px;
+  transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+  color: #333333;
+}
